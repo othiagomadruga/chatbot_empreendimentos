@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escolha seu apartamento</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div>
+      <h1 id="nome-empreendimento">Carregando…</h1>
+      <p id="subtitulo" class="sutil"></p>
+    </div>
+    <div class="filtros" role="group" aria-label="Filtrar unidades">
+      <button class="chip ativo" data-status="disponivel"><span class="bolinha disponivel"></span>Disponível</button>
+      <button class="chip ativo" data-status="reservado"><span class="bolinha reservado"></span>Reservado</button>
+      <button class="chip ativo" data-status="vendido"><span class="bolinha vendido"></span>Vendido</button>
+      <select id="filtro-tipologia" aria-label="Tipologia"><option value="">Todas as tipologias</option></select>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="fachada-area">
+      <div class="fachada" id="fachada">
+        <img id="fachada-img" alt="Fachada do empreendimento">
+        <svg id="fachada-svg" preserveAspectRatio="none" aria-label="Unidades clicáveis"></svg>
+        <div id="tooltip" class="tooltip" hidden></div>
+      </div>
+      <p class="dica sutil">Clique na janela do apartamento para ver os detalhes e fazer o tour 360°.</p>
+    </section>
+
+    <aside class="painel" id="painel">
+      <div id="painel-vazio" class="painel-vazio">
+        <h2>Escolha um apartamento</h2>
+        <p class="sutil">Passe o mouse pela fachada e clique numa janela. Você vê a planta, o preço e entra no apartamento decorado com a vista real daquele andar.</p>
+        <div id="resumo" class="resumo"></div>
+      </div>
+      <div id="painel-unidade" hidden>
+        <p class="sutil" id="u-local"></p>
+        <h2 id="u-titulo"></h2>
+        <span id="u-status" class="selo"></span>
+        <dl class="ficha">
+          <div><dt>Tipologia</dt><dd id="u-tipologia"></dd></div>
+          <div><dt>Área privativa</dt><dd id="u-area"></dd></div>
+          <div><dt>Vagas</dt><dd id="u-vagas"></dd></div>
+          <div><dt>Vista</dt><dd id="u-vista"></dd></div>
+        </dl>
+        <p class="preco" id="u-preco"></p>
+        <button class="botao principal" id="btn-tour">Entrar no apartamento · tour 360°</button>
+        <button class="botao" id="btn-similares" hidden>Ver unidades similares disponíveis</button>
+        <a class="botao" id="btn-interesse" target="_blank" rel="noopener" hidden>Tenho interesse (WhatsApp)</a>
+
+        <details class="simulacao">
+          <summary>Simular financiamento</summary>
+          <form id="form-simulacao">
+            <label>Renda bruta mensal <input type="number" min="0" step="100" name="renda" required></label>
+            <label>Entrada disponível <input type="number" min="0" step="1000" name="entrada" value="0"></label>
+            <label>FGTS <input type="number" min="0" step="1000" name="fgts" value="0"></label>
+            <button class="botao" type="submit">Calcular</button>
+          </form>
+          <div id="resultado-simulacao" class="resultado" aria-live="polite"></div>
+        </details>
+      </div>
+      <p class="aviso sutil" id="aviso-legal"></p>
+    </aside>
+  </main>
+
+  <div class="tour" id="tour" hidden role="dialog" aria-modal="true" aria-labelledby="tour-titulo">
+    <div class="tour-barra">
+      <div>
+        <strong id="tour-titulo"></strong>
+        <span class="sutil" id="tour-sub"></span>
+      </div>
+      <nav id="tour-comodos" class="tour-comodos" aria-label="Cômodos"></nav>
+      <button class="fechar" id="btn-fechar-tour" aria-label="Fechar tour">✕</button>
+    </div>
+    <div id="panorama"></div>
+    <div id="debug-coords" class="debug" hidden></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

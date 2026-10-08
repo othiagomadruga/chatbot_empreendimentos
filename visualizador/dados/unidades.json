@@ -1,0 +1,1352 @@
+{
+ "imagem": {
+  "largura": 1600,
+  "altura": 1800
+ },
+ "unidades": [
+  {
+   "unidade": "T1-1201",
+   "torre": "T1",
+   "andar": 12,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 857000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     406,
+     197
+    ],
+    [
+     592,
+     195
+    ],
+    [
+     590,
+     268
+    ],
+    [
+     403,
+     271
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1202",
+   "torre": "T1",
+   "andar": 12,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 615000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     612,
+     194
+    ],
+    [
+     799,
+     191
+    ],
+    [
+     798,
+     265
+    ],
+    [
+     610,
+     268
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1203",
+   "torre": "T1",
+   "andar": 12,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 615000.0,
+   "status": "reservado",
+   "poligono": [
+    [
+     820,
+     191
+    ],
+    [
+     1007,
+     188
+    ],
+    [
+     1008,
+     262
+    ],
+    [
+     819,
+     265
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1204",
+   "torre": "T1",
+   "andar": 12,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 857000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     1028,
+     188
+    ],
+    [
+     1216,
+     185
+    ],
+    [
+     1218,
+     259
+    ],
+    [
+     1028,
+     262
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1101",
+   "torre": "T1",
+   "andar": 11,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 850000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     402,
+     293
+    ],
+    [
+     589,
+     290
+    ],
+    [
+     587,
+     365
+    ],
+    [
+     399,
+     367
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1102",
+   "torre": "T1",
+   "andar": 11,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 610000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     610,
+     290
+    ],
+    [
+     798,
+     287
+    ],
+    [
+     797,
+     362
+    ],
+    [
+     608,
+     365
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1103",
+   "torre": "T1",
+   "andar": 11,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 610000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     819,
+     287
+    ],
+    [
+     1008,
+     284
+    ],
+    [
+     1008,
+     359
+    ],
+    [
+     818,
+     362
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1104",
+   "torre": "T1",
+   "andar": 11,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 850000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     1028,
+     284
+    ],
+    [
+     1218,
+     281
+    ],
+    [
+     1220,
+     357
+    ],
+    [
+     1029,
+     359
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1001",
+   "torre": "T1",
+   "andar": 10,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 843000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     397,
+     390
+    ],
+    [
+     587,
+     387
+    ],
+    [
+     585,
+     463
+    ],
+    [
+     394,
+     466
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1002",
+   "torre": "T1",
+   "andar": 10,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 605000.0,
+   "status": "reservado",
+   "poligono": [
+    [
+     607,
+     387
+    ],
+    [
+     797,
+     385
+    ],
+    [
+     797,
+     461
+    ],
+    [
+     605,
+     463
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1003",
+   "torre": "T1",
+   "andar": 10,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 605000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     818,
+     384
+    ],
+    [
+     1009,
+     382
+    ],
+    [
+     1009,
+     458
+    ],
+    [
+     817,
+     460
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-1004",
+   "torre": "T1",
+   "andar": 10,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 843000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     1029,
+     382
+    ],
+    [
+     1221,
+     379
+    ],
+    [
+     1223,
+     456
+    ],
+    [
+     1030,
+     458
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-901",
+   "torre": "T1",
+   "andar": 9,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 836000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     393,
+     488
+    ],
+    [
+     584,
+     486
+    ],
+    [
+     582,
+     563
+    ],
+    [
+     390,
+     565
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-902",
+   "torre": "T1",
+   "andar": 9,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 600000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     605,
+     486
+    ],
+    [
+     796,
+     484
+    ],
+    [
+     796,
+     561
+    ],
+    [
+     603,
+     563
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-903",
+   "torre": "T1",
+   "andar": 9,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 600000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     817,
+     483
+    ],
+    [
+     1009,
+     481
+    ],
+    [
+     1010,
+     558
+    ],
+    [
+     816,
+     561
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-904",
+   "torre": "T1",
+   "andar": 9,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 836000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     1030,
+     481
+    ],
+    [
+     1223,
+     478
+    ],
+    [
+     1225,
+     556
+    ],
+    [
+     1031,
+     558
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-801",
+   "torre": "T1",
+   "andar": 8,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 829000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     389,
+     588
+    ],
+    [
+     581,
+     586
+    ],
+    [
+     579,
+     665
+    ],
+    [
+     386,
+     667
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-802",
+   "torre": "T1",
+   "andar": 8,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 595000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     602,
+     586
+    ],
+    [
+     795,
+     584
+    ],
+    [
+     794,
+     663
+    ],
+    [
+     600,
+     665
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-803",
+   "torre": "T1",
+   "andar": 8,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 595000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     816,
+     584
+    ],
+    [
+     1010,
+     582
+    ],
+    [
+     1011,
+     660
+    ],
+    [
+     816,
+     662
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-804",
+   "torre": "T1",
+   "andar": 8,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 829000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     1031,
+     581
+    ],
+    [
+     1226,
+     579
+    ],
+    [
+     1227,
+     658
+    ],
+    [
+     1032,
+     660
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-701",
+   "torre": "T1",
+   "andar": 7,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 822000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     385,
+     690
+    ],
+    [
+     579,
+     688
+    ],
+    [
+     577,
+     768
+    ],
+    [
+     382,
+     770
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-702",
+   "torre": "T1",
+   "andar": 7,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 590000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     600,
+     688
+    ],
+    [
+     794,
+     686
+    ],
+    [
+     793,
+     766
+    ],
+    [
+     598,
+     768
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-703",
+   "torre": "T1",
+   "andar": 7,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 590000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     815,
+     686
+    ],
+    [
+     1011,
+     684
+    ],
+    [
+     1011,
+     764
+    ],
+    [
+     815,
+     766
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-704",
+   "torre": "T1",
+   "andar": 7,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 822000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     1032,
+     684
+    ],
+    [
+     1228,
+     682
+    ],
+    [
+     1230,
+     762
+    ],
+    [
+     1033,
+     764
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-601",
+   "torre": "T1",
+   "andar": 6,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 815000.0,
+   "status": "reservado",
+   "poligono": [
+    [
+     380,
+     794
+    ],
+    [
+     576,
+     792
+    ],
+    [
+     574,
+     873
+    ],
+    [
+     377,
+     875
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-602",
+   "torre": "T1",
+   "andar": 6,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 585000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     597,
+     792
+    ],
+    [
+     793,
+     790
+    ],
+    [
+     792,
+     871
+    ],
+    [
+     595,
+     873
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-603",
+   "torre": "T1",
+   "andar": 6,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 585000.0,
+   "status": "reservado",
+   "poligono": [
+    [
+     815,
+     790
+    ],
+    [
+     1011,
+     788
+    ],
+    [
+     1012,
+     869
+    ],
+    [
+     814,
+     871
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-604",
+   "torre": "T1",
+   "andar": 6,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 815000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     1033,
+     788
+    ],
+    [
+     1231,
+     786
+    ],
+    [
+     1233,
+     867
+    ],
+    [
+     1034,
+     869
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-501",
+   "torre": "T1",
+   "andar": 5,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 808000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     376,
+     899
+    ],
+    [
+     573,
+     897
+    ],
+    [
+     571,
+     979
+    ],
+    [
+     373,
+     981
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-502",
+   "torre": "T1",
+   "andar": 5,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 580000.0,
+   "status": "reservado",
+   "poligono": [
+    [
+     594,
+     897
+    ],
+    [
+     792,
+     895
+    ],
+    [
+     791,
+     978
+    ],
+    [
+     592,
+     979
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-503",
+   "torre": "T1",
+   "andar": 5,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 580000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     814,
+     895
+    ],
+    [
+     1012,
+     893
+    ],
+    [
+     1013,
+     976
+    ],
+    [
+     813,
+     978
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-504",
+   "torre": "T1",
+   "andar": 5,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 808000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     1034,
+     893
+    ],
+    [
+     1233,
+     892
+    ],
+    [
+     1235,
+     974
+    ],
+    [
+     1035,
+     976
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-401",
+   "torre": "T1",
+   "andar": 4,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 801000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     372,
+     1006
+    ],
+    [
+     570,
+     1004
+    ],
+    [
+     568,
+     1088
+    ],
+    [
+     368,
+     1089
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-402",
+   "torre": "T1",
+   "andar": 4,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 575000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     592,
+     1004
+    ],
+    [
+     791,
+     1002
+    ],
+    [
+     790,
+     1086
+    ],
+    [
+     590,
+     1088
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-403",
+   "torre": "T1",
+   "andar": 4,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 575000.0,
+   "status": "reservado",
+   "poligono": [
+    [
+     813,
+     1002
+    ],
+    [
+     1013,
+     1001
+    ],
+    [
+     1014,
+     1085
+    ],
+    [
+     812,
+     1086
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-404",
+   "torre": "T1",
+   "andar": 4,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 801000.0,
+   "status": "reservado",
+   "poligono": [
+    [
+     1035,
+     1001
+    ],
+    [
+     1236,
+     999
+    ],
+    [
+     1238,
+     1083
+    ],
+    [
+     1035,
+     1085
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-301",
+   "torre": "T1",
+   "andar": 3,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 794000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     367,
+     1114
+    ],
+    [
+     567,
+     1113
+    ],
+    [
+     565,
+     1198
+    ],
+    [
+     363,
+     1199
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-302",
+   "torre": "T1",
+   "andar": 3,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 570000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     589,
+     1113
+    ],
+    [
+     790,
+     1111
+    ],
+    [
+     789,
+     1197
+    ],
+    [
+     587,
+     1198
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-303",
+   "torre": "T1",
+   "andar": 3,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 570000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     812,
+     1111
+    ],
+    [
+     1014,
+     1110
+    ],
+    [
+     1014,
+     1196
+    ],
+    [
+     811,
+     1197
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-304",
+   "torre": "T1",
+   "andar": 3,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 794000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     1036,
+     1110
+    ],
+    [
+     1238,
+     1109
+    ],
+    [
+     1240,
+     1194
+    ],
+    [
+     1036,
+     1195
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-201",
+   "torre": "T1",
+   "andar": 2,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 787000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     362,
+     1225
+    ],
+    [
+     564,
+     1224
+    ],
+    [
+     562,
+     1310
+    ],
+    [
+     359,
+     1311
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-202",
+   "torre": "T1",
+   "andar": 2,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 565000.0,
+   "status": "reservado",
+   "poligono": [
+    [
+     586,
+     1223
+    ],
+    [
+     789,
+     1222
+    ],
+    [
+     788,
+     1309
+    ],
+    [
+     584,
+     1310
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-203",
+   "torre": "T1",
+   "andar": 2,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 565000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     811,
+     1222
+    ],
+    [
+     1015,
+     1221
+    ],
+    [
+     1015,
+     1308
+    ],
+    [
+     810,
+     1309
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-204",
+   "torre": "T1",
+   "andar": 2,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 787000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     1037,
+     1221
+    ],
+    [
+     1241,
+     1220
+    ],
+    [
+     1243,
+     1307
+    ],
+    [
+     1037,
+     1308
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-101",
+   "torre": "T1",
+   "andar": 1,
+   "final": 1,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 780000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     358,
+     1337
+    ],
+    [
+     561,
+     1336
+    ],
+    [
+     559,
+     1424
+    ],
+    [
+     354,
+     1425
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-102",
+   "torre": "T1",
+   "andar": 1,
+   "final": 2,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 560000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     583,
+     1336
+    ],
+    [
+     788,
+     1335
+    ],
+    [
+     787,
+     1423
+    ],
+    [
+     581,
+     1424
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-103",
+   "torre": "T1",
+   "andar": 1,
+   "final": 3,
+   "tipologia": "B",
+   "area_privativa": 68.0,
+   "preco": 560000.0,
+   "status": "disponivel",
+   "poligono": [
+    [
+     810,
+     1335
+    ],
+    [
+     1015,
+     1334
+    ],
+    [
+     1016,
+     1423
+    ],
+    [
+     809,
+     1423
+    ]
+   ]
+  },
+  {
+   "unidade": "T1-104",
+   "torre": "T1",
+   "andar": 1,
+   "final": 4,
+   "tipologia": "A",
+   "area_privativa": 92.0,
+   "preco": 780000.0,
+   "status": "vendido",
+   "poligono": [
+    [
+     1038,
+     1334
+    ],
+    [
+     1244,
+     1333
+    ],
+    [
+     1246,
+     1422
+    ],
+    [
+     1038,
+     1422
+    ]
+   ]
+  }
+ ]
+}

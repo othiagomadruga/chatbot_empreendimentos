@@ -1,0 +1,241 @@
+{
+  "nome": "Residencial Mirante",
+  "subtitulo": "Empreendimento de demonstração",
+  "endereco": "Endereço do empreendimento",
+  "torres": {
+    "T1": "Torre Única"
+  },
+  "fachada": "midia/fachada.jpg",
+  "contato": {
+    "whatsapp": "",
+    "mensagem": "Olá! Tenho interesse na unidade {unidade} ({tipologia}) do {empreendimento}."
+  },
+  "financiamento": {
+    "taxa_anual": 0.11,
+    "prazo_anos": 30,
+    "comprometimento_renda": 0.3
+  },
+  "faixas_vista": [
+    {
+      "id": "baixo",
+      "nome": "1º ao 4º andar",
+      "de": 1,
+      "ate": 4
+    },
+    {
+      "id": "medio",
+      "nome": "5º ao 8º andar",
+      "de": 5,
+      "ate": 8
+    },
+    {
+      "id": "alto",
+      "nome": "9º ao 12º andar",
+      "de": 9,
+      "ate": 12
+    }
+  ],
+  "tipologias": {
+    "A": {
+      "nome": "Tipo A · 3 quartos (1 suíte)",
+      "quartos": 3,
+      "suites": 1,
+      "vagas": 2,
+      "area_privativa": 92.0,
+      "comodos": [
+        {
+          "id": "sala",
+          "nome": "Sala e varanda",
+          "panorama": "midia/panoramas/A-sala-{faixa}.jpg",
+          "yaw_inicial": 0,
+          "pitch_inicial": -8,
+          "hotspots": [
+            {
+              "tipo": "comodo",
+              "destino": "cozinha",
+              "texto": "Cozinha",
+              "pitch": -10.0,
+              "yaw": -113.2
+            },
+            {
+              "tipo": "comodo",
+              "destino": "suite",
+              "texto": "Suíte",
+              "pitch": -10.3,
+              "yaw": 109.0
+            },
+            {
+              "tipo": "info",
+              "texto": "Piso em porcelanato 90×90 acetinado",
+              "pitch": -49.9,
+              "yaw": 147.5
+            },
+            {
+              "tipo": "vista",
+              "texto": "Porta de correr em alumínio, vidro laminado e guarda-corpo em vidro",
+              "pitch": 1.4,
+              "yaw": 0.0
+            }
+          ]
+        },
+        {
+          "id": "cozinha",
+          "nome": "Cozinha",
+          "panorama": "midia/panoramas/A-cozinha-{faixa}.jpg",
+          "yaw_inicial": 0,
+          "pitch_inicial": -8,
+          "hotspots": [
+            {
+              "tipo": "comodo",
+              "destino": "sala",
+              "texto": "Sala",
+              "pitch": -16.5,
+              "yaw": 108.5
+            },
+            {
+              "tipo": "info",
+              "texto": "Bancada em quartzo cinza com cuba em inox",
+              "pitch": -21.3,
+              "yaw": -164.8
+            },
+            {
+              "tipo": "vista",
+              "texto": "Janela de alumínio com vidro",
+              "pitch": 2.5,
+              "yaw": 0.0
+            }
+          ]
+        },
+        {
+          "id": "suite",
+          "nome": "Suíte",
+          "panorama": "midia/panoramas/A-suite-{faixa}.jpg",
+          "yaw_inicial": 0,
+          "pitch_inicial": -8,
+          "hotspots": [
+            {
+              "tipo": "comodo",
+              "destino": "sala",
+              "texto": "Sala",
+              "pitch": -14.6,
+              "yaw": -97.2
+            },
+            {
+              "tipo": "info",
+              "texto": "Piso vinílico amadeirado",
+              "pitch": -56.4,
+              "yaw": 119.1
+            },
+            {
+              "tipo": "vista",
+              "texto": "Janela com persiana integrada",
+              "pitch": -3.1,
+              "yaw": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "B": {
+      "nome": "Tipo B · 2 quartos (1 suíte)",
+      "quartos": 2,
+      "suites": 1,
+      "vagas": 1,
+      "area_privativa": 68.0,
+      "comodos": [
+        {
+          "id": "sala",
+          "nome": "Sala e varanda",
+          "panorama": "midia/panoramas/B-sala-{faixa}.jpg",
+          "yaw_inicial": 0,
+          "pitch_inicial": -8,
+          "hotspots": [
+            {
+              "tipo": "comodo",
+              "destino": "cozinha",
+              "texto": "Cozinha",
+              "pitch": -12.3,
+              "yaw": -113.3
+            },
+            {
+              "tipo": "comodo",
+              "destino": "suite",
+              "texto": "Suíte",
+              "pitch": -12.7,
+              "yaw": 108.8
+            },
+            {
+              "tipo": "info",
+              "texto": "Piso em porcelanato 90×90 acetinado",
+              "pitch": -49.9,
+              "yaw": 147.5
+            },
+            {
+              "tipo": "vista",
+              "texto": "Porta de correr em alumínio, vidro laminado e guarda-corpo em vidro",
+              "pitch": 1.7,
+              "yaw": 0.0
+            }
+          ]
+        },
+        {
+          "id": "cozinha",
+          "nome": "Cozinha",
+          "panorama": "midia/panoramas/B-cozinha-{faixa}.jpg",
+          "yaw_inicial": 0,
+          "pitch_inicial": -8,
+          "hotspots": [
+            {
+              "tipo": "comodo",
+              "destino": "sala",
+              "texto": "Sala",
+              "pitch": -18.8,
+              "yaw": 107.4
+            },
+            {
+              "tipo": "info",
+              "texto": "Bancada em quartzo cinza com cuba em inox",
+              "pitch": -23.7,
+              "yaw": -162.8
+            },
+            {
+              "tipo": "vista",
+              "texto": "Janela de alumínio com vidro",
+              "pitch": 2.8,
+              "yaw": 0.0
+            }
+          ]
+        },
+        {
+          "id": "suite",
+          "nome": "Suíte",
+          "panorama": "midia/panoramas/B-suite-{faixa}.jpg",
+          "yaw_inicial": 0,
+          "pitch_inicial": -8,
+          "hotspots": [
+            {
+              "tipo": "comodo",
+              "destino": "sala",
+              "texto": "Sala",
+              "pitch": -16.8,
+              "yaw": -95.7
+            },
+            {
+              "tipo": "info",
+              "texto": "Piso vinílico amadeirado",
+              "pitch": -56.4,
+              "yaw": 119.1
+            },
+            {
+              "tipo": "vista",
+              "texto": "Janela com persiana integrada",
+              "pitch": -3.5,
+              "yaw": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "aviso_legal": "Imagens meramente ilustrativas. Mobiliário e decoração não fazem parte do contrato. Vista simulada por faixa de andares. Valores sujeitos a alteração sem aviso prévio."
+}
